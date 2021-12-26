@@ -1,0 +1,31 @@
+Difference between NodeJS and JavaScript are as below
+
+NodeJS: 
+
+  NodeJS is a cross-platform and opensource Javascript runtime environment that allows the javascript to be run on the server-side.
+  Nodejs allows Javascript code to run outside the browser. 
+  Nodejs comes with a lot of modules and mostly used in web development. 
+  NodeJS cannot modify the HTML and its DOM elements.
+  NodeJS can do read and write files in the computer whereas JS cannot do.
+  NodeJS is used in the backend development using express.
+
+JavaScript:
+  Javascript is a Scripting language. It is mostly abbreviated as JS. 
+  JavaScript can run only in the browser.
+  It is used in the Client side programming.
+  JS can modify HTML elements and DOMs in the webpage.
+  JS is used in the Front-end development with help of Frameworks and Libraries.
+  Javascript is a high-level programming language that uses the concept of Oops but it is based on prototype inheritance. 
+  
+
+Description for the below commands.
+  
+typeof(1) - 'number' It will return the String type of 'number' as the data type.
+typeof(1.1) - 'number' - since float type also comes under datatype of Number in JS
+typeof('1.1') - 'string'
+typeof(true) - Boolean
+typeof(null) - 'object' - Null in JS is considered as object datatype, consider it a bug in JavaScript that typeof null is an object.
+typeof(undefined) - 'undefined'
+typeof([]) - 'object'
+typeof({}) - 'object'
+typeof(NaN) - 'number' NaN is considered as Number Datatype in JS
